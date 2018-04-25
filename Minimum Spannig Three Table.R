@@ -25,3 +25,4 @@ mst1=mst(graph_from_data_frame(d=links,             #Creates a non directed Mini
                     vertices=nodes, directed=F))    #With links in "links" vector, the vertices in "nodes" vector 
 MST=as_data_frame(mst1)                             #Creates a table of three columns of the mst1
 write.csv(MST,  file="MST.csv")                     #Save the table as CSV file
+
