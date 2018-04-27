@@ -1,3 +1,2 @@
-# Building a a Minimum Spannig Three in R 
-The code builds a MST (Minimum Spanning Three) network in R, using the Prim algorithm, based on a correlation matrix. 
-Aftear that, transform the vertices and links data ina a three columns data set.
+# Building a a Minimum Spannig Three in R, based on a Correlation Matrix
+The code builds a MST (Minimum Spanning Three) network in R,  based on a distance correlation matrix. The code shows how a step-by-step procedure from the tidy data to the MST table csv file: it measures the correlation matrix and the distance correlation matrix; builds a MST and aftear that, transform the vertices and links data into a three columns data set.
