@@ -1,5 +1,5 @@
 #Insalling Packages
-pcks<-c("Hmisc", "readxl", "Igraph", "fBasics", "vegan", "factoextra")
+pcks<-c("Hmisc", "readxl", "Igraph")
 install.packages(pcks)
 
 #Reading Tidy Data 
